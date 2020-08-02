@@ -7,10 +7,8 @@
                 .min(3)
                 .max(30)
                 .required(),
-            number: Joi.number()
-                .integer()
-                .min(99999999)
-                .max(9999999999)
+            email: Joi.string()
+                .email()
                 .required(),
             password: Joi.string()
                 .min(6)

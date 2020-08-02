@@ -7,17 +7,11 @@ const businessSchema = new mongoose.Schema({
         min: 3,
         max: 30
     },
-    // email: { 
-    //     type: String,
-    //     required: true,
-    //     min: 100,
-    //     max: 100
-    // },
-    number: {
-        type: Number,
+    email: { 
+        type: String,
         required: true,
-        min: 99999999,
-        max: 999999999
+        min: 100,
+        max: 100
     },
     password: { 
         type: String,
